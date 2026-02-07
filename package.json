@@ -3,7 +3,7 @@
   "displayName": "Metropolis",
   "publisher": "FabianDeckmann",
   "description": "Color theme based on the GMK Metropolis keycaps designed by Nephlock.",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -13,9 +13,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Metropolis",
+        "label": "Metropolis Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Metropolis-color-theme.json"
+      },
+      {
+        "label": "Metropolis Light",
+        "uiTheme": "vs",
+        "path": "./themes/metropolis-color-theme-light.json"
       }
     ]
   },
